@@ -1,0 +1,162 @@
+
+.donut-footer {
+	padding: 15px 0 10px 0;
+	background-color: @gray-dark;
+}
+
+.qa-footer {
+	color: @gray-light;
+	font-size:14px;
+	line-height: @line-height-base;
+
+	a{
+		color: @gray-light;
+	}
+	a:visited,
+	{
+		color: @gray-light;
+	}
+	a:hover , a:active , a:focus {
+		color: lighten(@gray-light , 30%);
+		text-decoration: none;
+	}
+	&-left {
+		float: left;
+	}
+	&-right {
+		float: right;
+	}
+	@media @mobile {
+		font-size: @font-size-base;
+	}
+}
+
+.qa-nav-footer {
+	font-size: 80%;
+
+	&-list {
+		float: left;
+		list-style-type: none;
+		margin: 5px 0 5px;
+		padding: 0;
+	}
+
+	&-item {
+		float: left;
+		padding: 0 15px 2px 0;
+		border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+		&:last-child{
+			padding-right: 0;
+		}
+	}
+	&-link {
+	}
+}
+
+.footer-bottom {
+	clear: both;
+}
+
+.footer-social ,
+.qa-attribution {
+}
+
+.footer-social {
+	font-size:14px;
+	overflow: auto;
+	margin-bottom: 5px;
+	ul {
+		list-style-type: none;
+		margin: 0 ;
+		padding: 0 ;
+
+		li {
+			float: left;
+			margin-right: 5px ;
+			background-color: @gray-darker;
+			padding:2px 6px;
+			border-radius: 3px ;
+		}
+	}
+}
+
+@media @tablet-and-above {
+	.qa-attribution {
+		float: right;
+		margin-left: 10px ;
+	}
+	.donut-copyright {
+		float: left;
+	}
+	.footer-social {
+
+	}
+	.qa-nav-footer {
+		float:right;
+	}
+}
+
+
+.donut-site-stats-bottom {
+	&{
+		padding: 15px;
+		background-color: @gray-lighter;
+		.light-border-top();
+	}
+	.stats-wrap{
+		margin: 0 auto;
+		display: table;
+	}
+	.count-item{
+		float: left;
+		color: @gray-base;
+		font-size:14px;
+		margin: 0 30px 0 0;
+		min-width: 100px;
+		padding: 5px;
+		text-align: center;
+		text-transform: capitalize;
+	}
+	.count-data {
+		background:@brand-info;
+		border-radius: 5px;
+		color: #FFFFFF;
+		display: inline-block;
+		margin-right: 6px;
+		padding: 0 10px;
+	}
+}
+
+.donut-design-author{
+	padding: 10px 0;
+	background-color: #333;
+	border-top:1px solid #4E4E4E;
+	font-size:12px;
+	text-align: left;
+	color: #777;
+	a{
+		color: #777;
+	}
+	.design-sys{
+		float: left;
+		@media @mobile{
+			float: none;
+		}
+	}
+	.fa-iconss{
+		float: right;
+		font-size: 14px;
+		margin-top:-2px;
+		@media @mobile{
+			float: none;
+			margin-top:3px;
+		}
+		a{
+			margin-left: 5px;
+			@media @mobile{
+				margin-left: 0;
+				margin-right: 5px;
+			}
+		}
+	}
+}

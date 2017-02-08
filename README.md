@@ -7,7 +7,7 @@ This theme base on [Dount](https://github.com/amiyasahu/Donut) for Question2Answ
 
 Visit http://www.sslzoo.com
 
-![screenshot](screen-shot.png)
+![screenshot](sslzoo-screen-shot.jpg)
 
 ## Required plugin
 
